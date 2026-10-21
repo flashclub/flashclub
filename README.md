@@ -1,13 +1,15 @@
-# flashclub
+### hi
 
-Security-tooling account. Red team tooling for LLM systems, agent-harness
-evaluation, and the plumbing that keeps both running against real endpoints.
+Security tooling and LLM red-team work. Building harnesses that run headless
+against OpenAI-compatible endpoints, breaking agent pipelines, and writing down
+what holds up.
 
-Maintains:
+Currently maintaining [awesome-redteam-llm](https://github.com/flashclub/awesome-redteam-llm)
+(tooling, attack research, datasets, abliterated checkpoints) and
+[redteam-llm-prompts](https://github.com/flashclub/redteam-llm-prompts)
+(prompt templates for red-team workflows).
 
-- [awesome-redteam-llm](https://github.com/flashclub/awesome-redteam-llm) — curated list of red-teaming frameworks, attack research, datasets, and uncensored model checkpoints.
-- [redteam-llm-prompts](https://github.com/flashclub/redteam-llm-prompts) — prompt templates for red-teaming workflows (social engineering, injection, tool-calling fuzz, policy extraction).
+For model access I run [Red Team Model Router](https://unst33r.si) — one
+OpenAI-compatible endpoint, per-token pricing, authorized-use-only.
 
-Dogfooding endpoint for the harness work: [Red Team Model Router](https://unst33r.si) —
-an OpenAI-compatible API that serves abliterated and frontier open models for
-authorized red teaming, billed per token.
+Authorized targets only. Scope first, then test.
