@@ -1,15 +1,25 @@
-### hi
+# Hi, I'm Changlu
 
-Security tooling and LLM red-team work. Building harnesses that run headless
-against OpenAI-compatible endpoints, breaking agent pipelines, and writing down
-what holds up.
+```ts
+const changlu = {
+  role: "Full-stack & AI Product Engineer",
+  stack: ["TypeScript", "React", "Next.js", "Node.js", "Python"],
+  building: ["AI-native products", "browser extensions", "developer tools"],
+  workflow: ["build", "ship", "learn", "iterate"],
+} as const;
+```
 
-Currently maintaining [awesome-redteam-llm](https://github.com/flashclub/awesome-redteam-llm)
-(tooling, attack research, datasets, abliterated checkpoints) and
-[redteam-llm-prompts](https://github.com/flashclub/redteam-llm-prompts)
-(prompt templates for red-team workflows).
+I build products end to end: from problem framing and interface design to APIs,
+automation, testing, deployment, and iteration with real users.
 
-For model access I run [Red Team Model Router](https://unst33r.si) — one
-OpenAI-compatible endpoint, per-token pricing, authorized-use-only.
+## Selected work
 
-Authorized targets only. Scope first, then test.
+- [**AgentDeck**](https://github.com/flashclub/agent-deck) — a browser-based workspace for running Pi, Claude Code, and Codex side by side with real terminals, Git worktrees, and MCP browser tools.
+- [**ChatGPT to Markdown**](https://chromewebstore.google.com/detail/chatgpt-to-markdown-pro-c/adghjpdmpbcmppeafpodcjpagmegdpci) — a featured Chrome extension for exporting ChatGPT conversations as clean, editable Markdown.
+- [**awesome-redteam-llm**](https://github.com/flashclub/awesome-redteam-llm) — a curated collection of LLM red-team tools, attack research, evaluation datasets, and model resources.
+
+```txt
+small steps > big rewrites
+working software > impressive diagrams
+clear boundaries > vague claims
+```
